@@ -1,0 +1,12 @@
+.DS_Store
+.Trashes
+._*
+*~
+.vscode
+.nuxt
+
+pg_data/
+pg_data4/
+
+docker-*.sh
+docker-compose.prod.yaml
