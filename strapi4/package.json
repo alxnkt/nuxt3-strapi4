@@ -1,0 +1,30 @@
+{
+  "name": "strapi-4",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Strapi 4 test application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.5.0",
+    "@strapi/plugin-users-permissions": "4.5.0",
+    "@strapi/plugin-i18n": "4.5.0",
+    "better-sqlite3": "7.4.6"
+  },
+  "author": {
+    "name": "alxnkt"
+  },
+  "strapi": {
+    "uuid": "8e6d6bcf-2899-41e5-9f7c-8a149e19660d"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
