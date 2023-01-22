@@ -1,13 +1,17 @@
-'use strict';
+import { Strapi } from '@strapi/strapi';
 
-module.exports = {
+export default {
   /**
    * An asynchronous register function that runs before
    * your application is initialized.
    *
    * This gives you an opportunity to extend code.
    */
-  register(/*{ strapi }*/) {},
+  // register(/*{ strapi }*/) {},
+  register( { strapi }: { strapi: Strapi }) {
+    // ...
+    // strapi.runLifecyclesFunctions("destroy");
+  },
 
   /**
    * An asynchronous bootstrap function that runs before

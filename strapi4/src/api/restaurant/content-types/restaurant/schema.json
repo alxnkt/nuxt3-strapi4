@@ -23,7 +23,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::category.category",
-      "inversedBy": "restaurants"
+      "mappedBy": "restaurants"
     }
   }
 }

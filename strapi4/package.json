@@ -2,7 +2,7 @@
   "name": "strapi-4",
   "private": true,
   "version": "0.1.0",
-  "description": "Strapi 4 test application",
+  "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -11,16 +11,16 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.5.0",
-    "@strapi/plugin-users-permissions": "4.5.0",
-    "@strapi/plugin-i18n": "4.5.0",
+    "@strapi/strapi": "4.5.6",
+    "@strapi/plugin-users-permissions": "4.5.6",
+    "@strapi/plugin-i18n": "4.5.6",
     "better-sqlite3": "7.4.6"
   },
   "author": {
-    "name": "alxnkt"
+    "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "8e6d6bcf-2899-41e5-9f7c-8a149e19660d"
+    "uuid": "d5543737-605f-4ff5-b940-1d701b6efdc7"
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
