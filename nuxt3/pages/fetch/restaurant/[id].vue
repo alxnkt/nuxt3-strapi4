@@ -4,7 +4,6 @@
     <div><textarea v-model="restaurant.description"></textarea></div>
     <button @click="updateRestaurant();$router.go(-1)">Update</button>
     <button @click="$router.go(-1)">Cancel</button>
-    {{ restaurant }}
   </div>
 </template>
   
